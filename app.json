@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "android": {
+      "package": "com.sagara.indonesiabrain"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "123adca6-5f23-4c1c-a893-d91664950dd2"
+      }
+    }
+  }
+}

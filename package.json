@@ -1,0 +1,68 @@
+{
+  "name": "solito-with-tailwind",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.2.14",
+    "@types/react-native": "^0.72.2",
+    "eslint": "^8.21.0",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.4",
+    "react-native-svg-transformer": "^1.4.0",
+    "tailwindcss": "3.3.2",
+    "turbo": "^1.4.2",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "native": "cd apps/expo && yarn start",
+    "web": "cd apps/next && yarn next",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
+  },
+  "resolutions": {
+    "metro": "~0.76.7",
+    "metro-resolver": "~0.76.7"
+  },
+  "nohoist": [
+    "**/expo-router",
+    "**/expo-router/**"
+  ],
+  "packageManager": "yarn@3.4.1",
+  "dependencies": {
+    "@expo/react-native-action-sheet": "^4.1.1",
+    "@react-native-async-storage/async-storage": "1.18.2",
+    "@react-native-community/datetimepicker": "7.2.0",
+    "@react-native-material/core": "^1.3.7",
+    "@rneui/base": "^4.0.0-rc.8",
+    "@rneui/themed": "^4.0.0-rc.8",
+    "axios": "^1.7.2",
+    "dripsy": "^4.3.5",
+    "expo": "~49.0.0",
+    "expo-barcode-scanner": "~12.5.3",
+    "expo-blur": "~12.4.1",
+    "expo-document-picker": "~11.5.4",
+    "expo-image-picker": "~14.3.2",
+    "expo-linear-gradient": "~12.3.0",
+    "expo-splash-screen": "~0.20.5",
+    "expo-status-bar": "~1.6.0",
+    "fast-text-encoding": "^1.0.6",
+    "moment": "^2.30.1",
+    "nativewind": "^2.0.11",
+    "postcss": "8.4.23",
+    "react": "18.2.0",
+    "react-hook-form": "^7.52.1",
+    "react-icons": "^5.3.0",
+    "react-native": "0.72.10",
+    "react-native-date-picker": "^5.0.13",
+    "react-native-document-picker": "^9.3.1",
+    "react-native-paper": "^5.12.5",
+    "react-native-qrcode-svg": "^6.3.15",
+    "react-native-svg": "13.9.0",
+    "react-native-vector-icons": "^10.2.0"
+  },
+  "version": "1.0.0"
+}

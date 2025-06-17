@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "HARROX",
+    "displayName": "HARROX",
+    "slug": "solito-nativewind",
+    "version": "1.0.0",
+    "scheme": "solito-nativewind",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.solito.nativewind"
+    },
+    "android": {
+      "package": "com.solito.indonesiabrain"
+    },
+    "splash": {
+      "image": "../../packages/app/ui/assets/splash.png",
+      "resizeMode": "cover"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a79c5b3e-bf7d-436b-a3db-78a05ea323b7"
+      }
+    }
+  }
+}
